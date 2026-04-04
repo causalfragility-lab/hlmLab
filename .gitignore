@@ -4,3 +4,5 @@
 .httr-oauth
 .DS_Store
 .quarto
+scripts/data_processed/
+scripts/figures/
