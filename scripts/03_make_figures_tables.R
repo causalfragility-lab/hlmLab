@@ -22,8 +22,8 @@ library(ggplot2)
 # -----------------------------------------------------------------------------
 # Setup
 # -----------------------------------------------------------------------------
-d_cross <- readRDS("data_processed/d_cross.rds")
-d_clean <- readRDS("data_processed/d_clean.rds")
+d_cross <- readRDS("scripts/data_processed/d_cross.rds")
+d_clean <- readRDS("scripts/data_processed/d_clean.rds")
 
 # Create output directory for figures
 dir.create("figures", showWarnings = FALSE)

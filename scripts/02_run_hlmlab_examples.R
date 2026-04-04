@@ -18,8 +18,8 @@ library(dplyr)
 # -----------------------------------------------------------------------------
 # Load processed data
 # -----------------------------------------------------------------------------
-d_cross <- readRDS("data_processed/d_cross.rds")
-d_clean <- readRDS("data_processed/d_clean.rds")
+d_cross <- readRDS("scripts/data_processed/d_cross.rds")
+d_clean <- readRDS("scripts/data_processed/d_clean.rds")
 
 cat("Cross-sectional N =", nrow(d_cross), "| Schools =",
     nlevels(droplevels(d_cross$schid)), "\n")
