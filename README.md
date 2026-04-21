@@ -184,7 +184,7 @@ citation("hlmLab")
 ```
 
 ```
-Hait S (2025). hlmLab: Hierarchical Linear Modeling with Visualization
+Hait S (2026). hlmLab: Hierarchical Linear Modeling with Visualization
 and Decomposition. R package version 0.1.0.
 https://github.com/causalfragility-lab/hlmLab
 ```
